@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    height: 60px;
+    width: 1536px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 5px;
+}
