@@ -4,12 +4,47 @@
 }
 .navbar{
     background-color: black;
-    height: 60px;
+    height: 55px;
     width: 1536px;
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
 }
 .logo{
+    color: rgb(193, 74, 74);
     margin-left: 5px;
+    font-size: 20px;
+}
+.home{
+    font-size: 19px;
+}
+.about{
+    font-size: 19px;
+}
+input{
+    width: 400px;
+    height: 25px;
+    text-align: center;
+}
+.search-logo{
+    background-color: yellow;
+    height: 28px;
+    width: 30px;
+    color: black;
+}
+#glass{
+    position: relative;
+    top: 5.5px;
+    left: 7px;
+}
+.history{
+    font-size: 19px;
+}
+.profile{
+    margin-right: 5px;
+    font-size: larger;
 }
