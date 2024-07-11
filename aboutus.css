@@ -83,9 +83,23 @@ h2:active{
     background-size: cover;
 }
 .text{
-    font-size: 24px;
+    font-size: 25px;
     padding-left: 45px;
     padding-right: 45px;
-    padding-top: 80px;
+    padding-top: 85px;
+    color: rgb(1, 1, 122);
+}
+.text2{
+    font-size: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    color: rgb(1, 1, 122);
+}
+ul{
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 45px;
+    padding-top: 18px;
     color: rgb(1, 1, 122);
 }
