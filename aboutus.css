@@ -70,3 +70,22 @@ h2:active{
     background-color: yellow;
     border: 1.7px solid red;
 }
+.foot{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.845);
+    height: 77.2px;
+    width: 1536px;
+}  
+.textdiv{
+    margin: 20px;
+    background-image: url("notice\ board.jpg");
+    height: 513px;
+    background-size: cover;
+}
+.text{
+    font-size: 24px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 80px;
+    color: white;
+}
