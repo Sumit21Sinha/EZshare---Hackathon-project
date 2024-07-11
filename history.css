@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    height: 55px;
+    width: 1536px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+}
+.logo{
+    color: rgb(193, 74, 74);
+    margin-left: 5px;
+    font-size: 20px;
+}
+.home{
+    font-size: 19px;
+}
+.about{
+    font-size: 19px;
+}
+input{
+    width: 400px;
+    height: 32.8px;
+    text-align: center;
+}
+.search-logo{
+    background-color: yellow;
+    height: 32.8px;
+    width: 30px;
+    color: black;
+}
+#glass{
+    position: relative;
+    top: 5.5px;
+    left: 7px;
+}
+.history{
+    font-size: 19px;
+}
+.profile{
+    margin-right: 5px;
+    font-size: larger;
+}
+.nav{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(64, 0, 255);
+    text-decoration: underline;
+}
+h2:hover{
+    color: red;
+}
+h2:active{
+    color: brown;
+}
+.search-logo:hover{
+    background-color: rgb(158, 167, 26);
+}
+.search-logo:active{
+    background-color: yellow;
+    border: 1.7px solid red;
+}

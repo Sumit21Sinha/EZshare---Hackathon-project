@@ -70,81 +70,36 @@ h2:active{
     background-color: yellow;
     border: 1.7px solid red;
 }
-.products1{
-    margin: 15px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 25px;
-}
-.meds{
-    height: 200px;
-    width: 200px;
-}
-.box{
-    border: 2px solid black;
-    padding: 5px;
-}
-.p1{
-    font-size: larger;
-    position: relative;
-    left: 45.5px;
-}
-.utens{
-    height: 200px;
-    width: 200px;
-}
-.deo{
-    height: 200px;
-    width: 200px;
-}
-.p2{
-    font-size: larger;
-    position: relative;
-    left: 49px;
-}
-.p3{
-    font-size: larger;
-    position: relative;
-}
-.prod{
-    color: red;
-    text-decoration: none;
-}
-.products2{
-    margin: 15px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-}
-.p4{
-    font-size: larger;
-    position: relative;
-}
-.wash{
-    height: 200px;
-    width: 200px;
-}
-.p5{
-    font-size: larger;
-    position: relative;
-    left: 43px;
-}
-.p6{
-    font-size: larger;
-    position: relative;
-    left: 15px;
-}
-.food{
-    height: 200px;
-    width: 200px;
-}
-.ele{
-    height: 200px;
-    width: 200px;
-}
 .foot{
     margin-top: 30px;
     background-color: rgba(0, 0, 0, 0.845);
     height: 77.2px;
     width: 1536px;
 }  
+.textdiv{
+    margin: 20px;
+    background-image: url("notice\ board.jpg");
+    height: 513px;
+    background-size: cover;
+}
+.text{
+    font-size: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 85px;
+    color: rgb(1, 1, 122);
+}
+.text2{
+    font-size: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    color: rgb(1, 1, 122);
+}
+ul{
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 45px;
+    padding-top: 18px;
+    color: rgb(1, 1, 122);
+}
