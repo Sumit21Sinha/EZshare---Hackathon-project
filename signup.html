@@ -9,27 +9,37 @@
 <style>
     body {
         font-family: Arial, sans-serif;
-        background-color: #b8b2b2;
+        background-color: #faf7f7;
     }
 </style>
 <body>
+    <div class="info">
+        <a href="#" class="logo">
+            <img src="ezsharelogo.jpeg" alt="Logo">
+        </a>
+    <p class="about">
+        Presenting a website that will enable students living in hostels to request items such as medicines, kettles, plates, and more from other students when needed. Likewise, it will allow students to lend their belongings to others when required, for a minimal cost and on a temporary basis. The website will also feature a chat section to facilitate communication between both parties, allowing them to discuss, negotiate, and reach a mutually satisfactory arrangement for borrowing and lending items.
+    </p>
+    </div>
     <div class="container">
         <div class="signup-form">
             <h2>Sign Up</h2>
             <form>
                 <label for="first name">First name</label>
-                <input type="text" id="first name" name="first name"><br><br>
+                <input type="text" id="first name" name="first name" required><br><br>
                 <label for="last name">Last name</label>
-                <input type="text" id="last name" name="last name"><br><br>
+                <input type="text" id="last name" name="last name" required><br><br>
                 <label for="username">Username:</label>
-                <input type="text" id="username" name="username"><br><br>
+                <input type="text" id="username" name="username" required><br><br>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
+                <input type="email" id="email" name="email" required><br><br>
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password"><br><br>
+                <input type="password" id="password" name="password" required><br><br>
                 <label for="confirm-password">Confirm Password:</label>
-                <input type="password" id="confirm-password" name="confirm-password"><br><br>
+                <input type="password" id="confirm-password" name="confirm-password" required><br><br>
                 <input type="submit" value="Sign Up">
+                <br><br>
+                <a id="existing" href="login.html">Already a user? <br> Sign in</a>
             </form>
         </div>
     </div>

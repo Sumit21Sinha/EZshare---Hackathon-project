@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #ffffff;
+}
 .container {
     float: right;
     width: 400px;
@@ -14,7 +17,7 @@
     border: 1px solid #ddd;
 }
 
-.signup-form {
+.login-form {
     margin: 20px;
     padding-right: 15px;
 }
@@ -28,14 +31,18 @@ label {
     display: block;
     margin-bottom: 10px;
 }
-
-input[type="text"], input[type="email"], input[type="password"] {
+input[type="password"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
 }
-
+#username{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
 input[type="submit"] {
     background-color: #4CAF50;
     color: #fff;
@@ -47,23 +54,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-<<<<<<< HEAD
     background-color: #0cf304;
 }
-
-#existing{
-    color: rgb(0, 0, 255);
-}
-#existing:hover{
-    color: rgba(0, 0, 255, 0.486);
-    cursor: pointer;
-}
-
-
-
-=======
-    background-color: #0cf304; 
->>>>>>> 67dee3ecdcf1711e813888b5841373cebb2ea5c0
 
 .about {
     width: 350px;
