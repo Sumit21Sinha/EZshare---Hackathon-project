@@ -64,3 +64,29 @@ input[type="submit"]:hover {
 =======
     background-color: #0cf304; 
 >>>>>>> 67dee3ecdcf1711e813888b5841373cebb2ea5c0
+
+.about {
+    width: 350px;
+    float: left; 
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-right: 1px solid #ddd;
+    font-size: large;
+  }
+
+.logo {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+}  
+.info{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 400px;
+    margin: 40px;
+    margin-left: 100px;
+    position: fixed;
+}
