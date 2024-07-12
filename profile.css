@@ -70,3 +70,37 @@ h2:active{
     background-color: yellow;
     border: 1.7px solid red;
 }
+.hero{
+    margin: 10px;
+}
+.dp{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 198, 198);
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+}
+.change{
+    margin-top: 10px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+table{
+    margin-top: 20px;
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 2.5px;
+    background-color: antiquewhite;
+    font-size: larger;
+}
+td:hover{
+    background-color: aliceblue;
+}
