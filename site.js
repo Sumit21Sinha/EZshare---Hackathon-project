@@ -1,0 +1,1 @@
+bd=document.querySelector("body");
