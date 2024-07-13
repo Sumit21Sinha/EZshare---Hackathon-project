@@ -82,3 +82,7 @@ input[type="submit"]:hover {
     margin-left: 100px;
     position: fixed;
 }
+body{
+    background-image: url("gradient-background-with-bokeh-effect_52683-29043.avif");
+    background-size: cover;
+} 

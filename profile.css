@@ -104,3 +104,7 @@ td{
 td:hover{
     background-color: aliceblue;
 }
+body{
+    background-image: url("gradient-background-with-bokeh-effect_52683-29043.avif");
+    background-size: cover;
+} 

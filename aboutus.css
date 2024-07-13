@@ -103,3 +103,7 @@ ul{
     padding-top: 18px;
     color: rgb(1, 1, 122);
 }
+body{
+    background-image: url("gradient-background-with-bokeh-effect_52683-29043.avif");
+    background-size: cover;
+} 
