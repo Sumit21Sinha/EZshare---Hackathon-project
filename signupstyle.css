@@ -45,8 +45,6 @@ input[type="submit"] {
     cursor: pointer;
     text-align: center;
 }
-
-input[type="submit"]:hover {
 <<<<<<< HEAD
     background-color: #0cf304;
 }
@@ -65,7 +63,7 @@ input[type="submit"]:hover {
     background-color: #0cf304; 
 >>>>>>> 67dee3ecdcf1711e813888b5841373cebb2ea5c0
 
-.about {
+.about{
     width: 350px;
     float: left; 
     padding: 20px;
@@ -94,3 +92,13 @@ body{
     background-image: url("gradient-background-with-bokeh-effect_52683-29043.avif");
     background-size: cover;
 } 
+button{
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    height: 40px;
+}
